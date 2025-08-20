@@ -1,46 +1,46 @@
 {
-    "name": "@stratton-cologne/remote-modules",
-    "version": "1.0.0",
-    "description": "Runtime loader für Vue 3: externe ESM-Module (Routes, i18n, CSS) aus /modules dynamisch laden",
-    "license": "MIT",
-    "type": "module",
-    "sideEffects": false,
-    "exports": {
-        ".": {
-            "types": "./dist/index.d.ts",
-            "import": "./dist/index.js"
-        }
-    },
-    "main": "./dist/index.js",
-    "module": "./dist/index.js",
-    "types": "./dist/index.d.ts",
-    "files": [
-        "dist"
-    ],
-    "keywords": [
-        "vue",
-        "vue3",
-        "vite",
-        "runtime",
-        "modules",
-        "dynamic import",
-        "i18n",
-        "router",
-        "pinia"
-    ],
-    "peerDependencies": {
-        "pinia": "^2.1.7",
-        "vue": "^3.4.0",
-        "vue-i18n": "^9.10.0",
-        "vue-router": "^4.3.0"
-    },
-    "devDependencies": {
-        "tsup": "^8.5.0",
-        "typescript": "^5.9.2"
-    },
-    "scripts": {
-        "build": "tsup src/index.ts --dts --format esm --clean",
-        "dev": "tsup src/index.ts --watch --dts --format esm",
-        "typecheck": "tsc --noEmit"
+  "name": "@stratton-cologne/remote-modules",
+  "version": "1.0.1",
+  "description": "Runtime loader für Vue 3: externe ESM-Module (Routes, i18n, CSS) aus /modules dynamisch laden",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
     }
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "vue",
+    "vue3",
+    "vite",
+    "runtime",
+    "modules",
+    "dynamic import",
+    "i18n",
+    "router",
+    "pinia"
+  ],
+  "peerDependencies": {
+    "pinia": "^3.0.0",
+    "vue": "^3.5.0",
+    "vue-i18n": "^9.10.0",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format esm --clean",
+    "dev": "tsup src/index.ts --watch --dts --format esm",
+    "typecheck": "tsc --noEmit"
+  }
 }
