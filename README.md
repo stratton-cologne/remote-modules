@@ -1,5 +1,12 @@
 # @stratton-cologne/remote-modules
 
+[![npm version](https://img.shields.io/npm/v/@stratton-cologne/remote-modules.svg)](https://www.npmjs.com/package/@stratton-cologne/remote-modules)
+[![npm downloads (total)](https://img.shields.io/npm/dt/%40stratton-cologne%2Fremote-modules)](https://www.npmjs.com/package/@stratton-cologne/remote-modules)
+[![npm downloads (week)](https://img.shields.io/npm/dw/%40stratton-cologne%2Fremote-modules)](https://www.npmjs.com/package/@stratton-cologne/remote-modules)
+![node >= 18](https://img.shields.io/badge/node-%3E%3D18-brightgreen)
+![typescript](https://img.shields.io/badge/TypeScript-ready-blue)
+![license: MIT](https://img.shields.io/badge/license-MIT-lightgrey)
+
 Runtime‑Loader für **Vue 3 + Vite**: lädt externe **ESM‑Module** (Routes, i18n, CSS) zur Laufzeit aus einem Manifest
 (z. B. `/modules/index.json`). Ideal für **Drop‑in‑Module**, die separat entwickelt/gebaut und ohne Rebuild der Host‑App deployed werden.
 
